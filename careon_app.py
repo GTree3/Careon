@@ -32,7 +32,8 @@ pg = st.navigation(
 )
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/Careon_Logo.png")
+st.logo("assets/Careon - AI Fall Detector.png")
+
 st.sidebar.text("Made with ❤️ by CTRL+ALT+DEFEAT")
 # --- RUN NAVIGATION ---
 pg.run()
