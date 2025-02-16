@@ -5,7 +5,13 @@ import json
 import streamlit as st
 from cloudflare import Cloudflare
 
-st.title("Customer Support Chat Bot")
+st.markdown("""
+    <style>
+        h1 { text-align: center; }
+        .stMarkdown a { display: none !important; }
+    </style>
+    <h1>Customer Support Chat Bot</h1>
+""", unsafe_allow_html=True)
 
 # Set Cloudflare API key from Streamlit secrets
 client = Cloudflare(api_token=st.secrets["CLOUDFLARE_API_TOKEN"])

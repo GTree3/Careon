@@ -4,7 +4,7 @@ import streamlit as st
 st.markdown("""
     <style>
         h1 { text-align: center; }
-        .stMarkdown a { display: none !important; }  /* Hides the link */
+        .stMarkdown a { display: none !important; }
     </style>
     <h1>About Us</h1>
 """, unsafe_allow_html=True)
@@ -14,7 +14,7 @@ st.image("./assets/Careon - Logo.png", use_container_width=True)
 st.markdown("""
     <style>
         p { text-align: center; }
-        .stMarkdown a { display: none !important; }  /* Hides the link */
+        .stMarkdown a { display: none !important; }
     </style>
     <p>
        Careon is an innovative AI-powered web application aimed at enhancing the safety and 
