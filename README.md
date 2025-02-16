@@ -4,8 +4,9 @@ Careon is an innovative AI-powered web application aimed at enhancing the safety
 
 ## Installation
 
-1. Install Python 3.13
+1. Install Python 3.10
 2. Clone this project
-3. Create a virtual environment: `python -m venv .venv`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Run program: `streamlit run careon_app.py`
+3. Under the `.streamlit` folder, create a secrets.toml file with the `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` values from https://dash.cloudflare.com
+4. Create a virtual environment: `python -m venv .venv`
+5. Install dependencies: `pip install -r requirements.txt`
+6. Run program: `streamlit run careon_app.py`
